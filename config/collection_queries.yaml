@@ -1,0 +1,91 @@
+version: 1
+
+queries:
+  # Technology & Innovation
+  - id: artificial_intelligence
+    category: technology
+    query: '"artificial intelligence" OR AI'
+    enabled: true
+    default_limit: 30
+
+  - id: cybersecurity
+    category: technology
+    query: 'cybersecurity OR ransomware OR "cyber attack"'
+    enabled: true
+    default_limit: 30
+
+  - id: telecom
+    category: technology
+    query: 'telecom OR 5G OR connectivity'
+    enabled: true
+    default_limit: 30
+
+  # Economy & Markets
+  - id: stocks
+    category: finance
+    query: 'stocks OR "stock market" OR investing OR WallStreet'
+    enabled: true
+    default_limit: 30
+
+  - id: crypto
+    category: finance
+    query: 'crypto OR bitcoin OR ethereum'
+    enabled: true
+    default_limit: 30
+
+  - id: jobs
+    category: economy
+    query: 'jobs OR unemployment OR hiring'
+    enabled: true
+    default_limit: 30
+
+  - id: inflation
+    category: economy
+    query: 'inflation OR "cost of living"'
+    enabled: true
+    default_limit: 30
+
+  # National & Country Affairs
+  - id: national_governance
+    category: governance
+    query: 'governance OR "public policy" OR development'
+    enabled: true
+    default_limit: 30
+
+  - id: india
+    category: national
+    query: 'India OR Bharat OR DigitalIndia'
+    enabled: true
+    default_limit: 30
+
+  - id: politics
+    category: politics
+    query: 'politics OR election OR parliament'
+    enabled: true
+    default_limit: 30
+
+  # Environment & Climate
+  - id: climate
+    category: environment
+    query: 'climate OR "renewable energy" OR sustainability'
+    enabled: true
+    default_limit: 30
+
+  # Entertainment & Culture
+  - id: gaming
+    category: entertainment
+    query: 'gaming OR esports'
+    enabled: true
+    default_limit: 30
+
+  - id: movies
+    category: entertainment
+    query: 'movies OR cinema OR Bollywood OR Hollywood'
+    enabled: true
+    default_limit: 30
+
+  - id: sports
+    category: sports
+    query: 'sports OR cricket OR football'
+    enabled: true
+    default_limit: 30

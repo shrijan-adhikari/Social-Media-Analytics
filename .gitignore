@@ -33,3 +33,9 @@ huggingface/
 
 .DS_Store
 Thumbs.db
+
+# Executables & Binaries
+*.exe
+
+# Logs
+*.log
