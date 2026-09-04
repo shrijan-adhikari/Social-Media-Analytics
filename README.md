@@ -1,8 +1,7 @@
 # INTEL_SYNTHESIS — Social Media Narrative Intelligence Platform
 
-> **SIH26152 — Social Media Analytics** | **Team Adastra**  
 > An open-source, jury-ready AI intelligence workstation that ingests X/Twitter conversations, normalizes interaction networks, detects emerging semantic narratives, classifies nuanced sentiment with confidence-aware sarcasm fusion, and maps community influence topologies.
-
+> Prototype made by => [Shrijan Adhikari]
 ---
 
 ## 📑 Table of Contents
