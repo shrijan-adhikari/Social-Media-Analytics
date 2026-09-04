@@ -59,7 +59,7 @@ flowchart TD
         PG -->|Tweet Text| SC["T5 Twitter Sarcasm Model\n+ Confidence Fusion"]
         PG -->|Tweet Text| EMB["all-MiniLM-L6-v2 Embeddings\n+ HDBSCAN Clustering"]
         PG -->|Interactions| NET["NetworkX Interaction Graph\n(PageRank • Louvain • Betweenness)"]
-        PG -.->|Profiles (Phase 5)| M3["M3-Inference\n(Multimodal Demographics)"]
+        PG -. "Profiles (Phase 5)" .-> M3["M3-Inference\n(Multimodal Demographics)"]
     end
 
     subgraph S4["4. Analytical Storage"]
@@ -146,7 +146,7 @@ sequenceDiagram
     DevTools->>DevTools: Expand "Cookies" -> Click "https://x.com"
     DevTools-->>User: Copy value of "auth_token" (hex string)
     DevTools-->>User: Copy value of "ct0" (CSRF token)
-    User->>Env: Set TWITTER_COOKIES="auth_token=...; ct0=..."
+    User->>Env: Set TWITTER_COOKIES="auth_token=...#59; ct0=..."
 ```
 
 1. Open your browser and log into [x.com](https://x.com).
